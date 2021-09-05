@@ -1,0 +1,199 @@
+/*magin: buttom right top left*/
+
+html{
+    background-color: black;
+}
+.row{
+    margin: 0;
+    padding: 0;
+    max-width: 1140px;
+}
+.calculator{
+    background-color: #E0E0E0;
+    border-radius: 2px;
+    border: solid white 10px;
+    margin-left: 25%;
+    margin-right: 5%;
+    
+    padding-bottom: 10%;
+}
+@media screen and (max-width:1080px){
+    .calculator{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+.result{
+    margin: 30px 100px 50px 100px;
+    width: 700px;
+    height: 50px;
+    margin-left: 30px;
+    margin-bottom: 40px;
+    background-color: #FDFFE8;
+    border: solid black 2px;
+    border-radius: 2px;
+    font-size: 150%;
+    text-align: right;
+    
+}
+@media screen and (max-width:1080px){
+    .result{
+        margin-left: 2.5%;
+    }
+}
+h1{
+    text-transform: uppercase;
+    text-align: center;
+    border: solid black 2px;
+    margin: 0px 250px 10px 250px;
+    
+}
+.Clear{
+    font-size: 30px;
+    background-color: rgb(161, 0, 0);
+    color: rgb(221, 213, 213);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    padding: 5px;
+    border: solid black 2px;
+    display: inline-block;
+    margin-left: 60px;
+    text-align: center;
+}
+.Clear:hover{
+    font-size: 30px;
+    background-color: rgb(212, 0, 0);
+    color: rgb(221, 213, 213);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    padding: 5px;
+    border: solid black 2px;
+    display: inline-block;
+    margin-left: 60px;
+    text-align: center;
+}
+.Clear:active{
+    font-size: 30px;
+    background-color: rgb(161, 0, 0);
+    color: rgb(221, 213, 213);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    padding: 5px;
+    border: solid black 2px;
+    display: inline-block;
+    margin-left: 60px;
+    text-align: center;
+}
+.Numbers{
+    font-size: 30px;
+    background-color: gray;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    padding: 5px;
+    border: solid black 2px;
+    display: inline-block;
+    margin-left: 60px;
+    text-align: center;
+}
+.Numbers:hover{
+    font-size: 30px;
+    background-color: rgb(180, 180, 180);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    padding: 5px;
+    border: solid black 2px;
+    display: inline-block;
+    margin-left: 60px;
+    text-align: center;
+}
+.Numbers:active{
+    font-size: 30px;
+    background-color: gray;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    padding: 5px;
+    border: solid black 2px;
+    display: inline-block;
+    margin-left: 60px;
+    text-align: center;
+}
+.Oparator{
+    font-size: 30px;
+    background-color: green;
+    color: rgb(221, 213, 213);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: solid black 2px;
+    display: inline-block;
+    margin-left: 60px;
+    text-align: center;
+}
+.Oparator:hover{
+    font-size: 30px;
+    background-color: rgb(44, 185, 1);
+    color: rgb(221, 213, 213);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: solid black 2px;
+    display: inline-block;
+    margin-left: 60px;
+    text-align: center;
+}
+.Oparator:active{
+    font-size: 30px;
+    background-color: green;
+    color: rgb(221, 213, 213);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: solid black 2px;
+    display: inline-block;
+    margin-left: 60px;
+    text-align: center;
+}
+.Equal{
+    font-size: 30px;
+    background-color: rgb(209, 143, 21);
+    color: rgb(221, 213, 213);
+    height: 50px;
+    width: 50px;
+    border-radius: 10%;
+    border: solid black 2px;
+    display: inline-block;
+    margin-left: 60px;
+    text-align: center;
+    margin-right: 60px;
+}
+.Equal:hover{
+    font-size: 30px;
+    background-color: rgb(231, 151, 3);
+    color: rgb(221, 213, 213);
+    height: 50px;
+    width: 50px;
+    border-radius: 10%;
+    border: solid black 2px;
+    display: inline-block;
+    margin-left: 60px;
+    text-align: center;
+    margin-right: 60px;
+}.Equal:active{
+    font-size: 30px;
+    background-color: rgb(209, 143, 21);
+    color: rgb(221, 213, 213);
+    height: 50px;
+    width: 50px;
+    border-radius: 10%;
+    border: solid black 2px;
+    display: inline-block;
+    margin-left: 60px;
+    text-align: center;
+    margin-right: 60px;
+}
